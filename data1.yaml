@@ -1,0 +1,11 @@
+# path to dataset root dir
+path: .
+
+train: data\train  # train images (relative to 'path')    # val images (relative to 'path')
+test: data\test    # test images (optional)
+val: data\val      # validation images (optional)
+# number of classes
+nc: 3 
+
+# class names
+names: ['box', 'button','icon']
